@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Área do Cliente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Bem-vindo, Cliente</h2>
+
+  <form id="form-saldo">
+    <label>Número da Conta:</label><br>
+    <input type="text" id="numeroContaSaldo" required><br>
+    <button type="submit">Consultar Saldo</button>
+  </form>
+
+  <form id="form-extrato">
+    <label>Número da Conta:</label><br>
+    <input type="text" id="numeroContaExtrato" required><br>
+    <button type="submit">Ver Últimas 50 Transações</button>
+  </form>
+
+  <pre id="resultado"></pre>
+
+  <script src="frontCliente.js"></script>
+</body>
+</html>
