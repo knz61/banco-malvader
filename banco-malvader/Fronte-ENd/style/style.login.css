@@ -1,0 +1,74 @@
+/* Estilo - Tela de Login - Banco Malvader */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h2 {
+    color: #003366;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  #mensagem {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
