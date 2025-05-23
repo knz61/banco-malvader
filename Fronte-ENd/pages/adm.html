@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Área do Funcionário</title>
+  <link rel="stylesheet" href="../style/style.funcionario.css">
+</head>
+<body>
+  <h2>Funcionário</h2>
+
+  <form id="form-abertura">
+    <h3>Abertura de Conta</h3>
+    <label>ID Cliente:</label><br>
+    <input type="number" id="idCliente"><br>
+    <label>Agência:</label><br>
+    <input type="number" id="agencia"><br>
+    <label>Tipo:</label><br>
+    <select id="tipoConta">
+      <option value="POUPANCA">Poupança</option>
+      <option value="CORRENTE">Corrente</option>
+      <option value="INVESTIMENTO">Investimento</option>
+    </select><br><br>
+    <button type="submit">Abrir Conta</button>
+  </form>
+
+  <pre id="resultadoAdm"></pre>
+
+  <script src="frontFuncionario.js"></script>
+</body>
+</html>
